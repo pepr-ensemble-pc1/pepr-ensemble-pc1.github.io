@@ -19,7 +19,7 @@ Since 2023, PC1 has funded 29 PhD students (15 fully funded, 14 partially suppor
 
 More info on the PEPR eNSEMBLE homepage: [https://www.pepr-ensemble.fr/cats-espaces-de-collaboration/](https://www.pepr-ensemble.fr/cats-espaces-de-collaboration/)
 
-## Scientific Contributions
+## Publications
 
 ### 2025
 
