@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "PC1-CATS"
+title = "PEPR eNSEMBLE"
 
 [params]
   displayName = "EN"
@@ -10,14 +10,14 @@ title = "PC1-CATS"
   rtl = false
   dateFormat = "2 January 2006"
   logo = "../assets/logos/hands.png"
-  # secondaryLogo = "img/secondary-logo.png"
+  # secondaryLogo = "../assets/logos/ensemble.png"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
 name = "PC1-CATS"
 # email = "flavien.lebrun@univ-evry.fr"
-# image = "../assets/logos/hands.png"
+image = "../assets/logos/hands.png"
 #   imageQuality = 96
 #   headline = "I'm only human"
 #   bio = "A little bit about you"

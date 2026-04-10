@@ -28,10 +28,12 @@ enableEmoji = true
   anchor = 'Center'
 
 [taxonomies]
-  tag = "tags"
-  category = "categories"
+  tag = "tags" # into keywords
+  category = "categories" # into research
   author = "authors"
   series = "series"
+  people = "people"
+  publications = "publications"
 
 [sitemap]
   changefreq = 'daily'
