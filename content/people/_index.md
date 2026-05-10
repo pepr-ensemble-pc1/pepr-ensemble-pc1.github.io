@@ -13,45 +13,45 @@ title: "People"
 ## PostDocs
 
 ### 2025
-- Flavien LEBRUN
-- Wen-Jie TSENG
+- [Flavien LEBRUN](/people/lebrun/)
+- [Wen-Jie TSENG](/people/tseng/)
 
 ## PhD Students
 
 ### 2025
 
-- Fehmi Cem BOYACIOGLU
-- Jean-Charles BRUNET
-- Ramakrishnan KUMARAVELU
-- Alyssa LEMOINE
-- Juliette Meunier
-- Zeineb Amara
+- [Fehmi Cem BOYACIOGLU](/people/boyacioğlu)
+- [Jean-Charles BRUNET](/people/brunet)
+- [Ramakrishnan KUMARAVELU](people/kumaravelu)
+- [Alyssa LEMOINE](people/lemoine)
+- [Juliette Meunier](people/meunier)
+- [Zeineb Amara](people/amara)
 
 ### 2024
 
-- Constance BAULT	
-- Julien BERRY
-- Majd BITAR
-- Mattéo BORREGO
-- Clémence CUNIN
-- Francesco DETTORI
-- Thomaz FEVRE
-- Clémentine GUILLEMET
-- Yawen	LI
-- Hovhannes MARGARYAN
-- Sergio Camilo Medina Galvis
-- Frederick Salin
-- Guillaume Vallet
-- Frederick Vickery
-- Mathilde Yousefi
-- Xinpei Zheng
+- [Constance BAULT](people/bault)
+- [Julien BERRY](people/berry)
+- [Majd BITAR](people/bitar)
+- [Mattéo BORREGO](people/borrego)
+- [Clémence CUNIN](people/cunin)
+- [Francesco DETTORI](people/dettori)
+- [Thomaz FEVRE](people/fevre)
+- [Clémentine GUILLEMET](people/guillemet)
+- [Yawen LI](people/li)
+- [Hovhannes MARGARYAN](people/margaryan)
+- [Sergio Camilo Medina Galvis](people/medina_galvis)
+- [Frederick Salin](people/salin)
+- [Guillaume Vallet](people/vallet)
+- [Frederick Vickery](people/vickery)
+- [Mathilde Yousefi](people/yousefi)
+- [Xinpei Zheng](people/zheng)
 
 ### 2023
 
-- Manel BOUKLI-HACENE
-- Lucas BRAND
-- Victor BRÉHAULT 
-- Tristan LANNUZEL
-- Juliette LE MEUDEC
-- David Maruscsak
-- Sabrina Toofany
+- [Manel BOUKLI-HACENE](people/boukli-hacene)
+- [Lucas BRAND](people/brand)
+- [Victor BRÉHAULT](people/bréhault)
+- [Tristan LANNUZEL](people/lannuzel)
+- [Juliette LE MEUDEC](people/le_meudec)
+- [David Maruscsak](people/maruscsák)
+- [Sabrina Toofany](people/toofany)

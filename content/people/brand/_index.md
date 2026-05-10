@@ -1,0 +1,13 @@
+---
+title: Lucas BRAND
+date: 2023-09-01
+---
+
+* PhD student at ENIB - INUIT
+* City: Brest
+* Starting Year: 2023
+* Grant: Support
+
+## Thesis Title
+
+COLLABORATION TEMPS RÉEL DANS DES ESPACES HYBRIDES MELANT ENVIRONNEMENTS VIRTUELS ET INTERFACES TANGIBLES
