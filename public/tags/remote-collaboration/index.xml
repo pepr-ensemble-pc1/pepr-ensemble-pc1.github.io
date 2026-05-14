@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Remote Collaboration on PEPR eNSEMBLE</title>
+    <link>http://localhost:1313/tags/remote-collaboration/</link>
+    <description>Recent content in Remote Collaboration on PEPR eNSEMBLE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 PC1-CATS</copyright>
+    <lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/remote-collaboration/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Jean-Charles BRUNET</title>
+      <link>http://localhost:1313/people/brunet/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/people/brunet/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Zeineb AMARA</title>
+      <link>http://localhost:1313/people/amara/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/people/amara/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Clémence CUNIN</title>
+      <link>http://localhost:1313/people/cunin/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/people/cunin/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Constance BAULT</title>
+      <link>http://localhost:1313/people/bault/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/people/bault/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Thomaz FEVRE</title>
+      <link>http://localhost:1313/people/fevre/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/people/fevre/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Sabrina TOOFANY</title>
+      <link>http://localhost:1313/people/toofany/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/people/toofany/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Victor  BRÉHAULT</title>
+      <link>http://localhost:1313/people/br%C3%A9hault/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/people/br%C3%A9hault/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

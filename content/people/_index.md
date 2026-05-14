@@ -20,12 +20,12 @@ title: "People"
 
 ### 2025
 
+- [Zeineb Amara](people/amara)
 - [Fehmi Cem BOYACIOGLU](/people/boyacioğlu)
 - [Jean-Charles BRUNET](/people/brunet)
 - [Ramakrishnan KUMARAVELU](people/kumaravelu)
 - [Alyssa LEMOINE](people/lemoine)
 - [Juliette Meunier](people/meunier)
-- [Zeineb Amara](people/amara)
 
 ### 2024
 

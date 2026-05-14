@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Augmented Reality on PEPR eNSEMBLE</title>
+    <link>http://localhost:1313/tags/augmented-reality/</link>
+    <description>Recent content in Augmented Reality on PEPR eNSEMBLE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 PC1-CATS</copyright>
+    <lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/augmented-reality/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Zeineb AMARA</title>
+      <link>http://localhost:1313/people/amara/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/people/amara/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Frederick VICKERY</title>
+      <link>http://localhost:1313/people/vickery/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/people/vickery/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Julien BERRY</title>
+      <link>http://localhost:1313/people/berry/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/people/berry/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Victor  BRÉHAULT</title>
+      <link>http://localhost:1313/people/br%C3%A9hault/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/people/br%C3%A9hault/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

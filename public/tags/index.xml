@@ -10,11 +10,31 @@
     <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>HCI</title>
-      <link>http://localhost:1313/tags/hci/</link>
+      <title>Fatigue</title>
+      <link>http://localhost:1313/tags/fatigue/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/hci/</guid>
+      <guid>http://localhost:1313/tags/fatigue/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Human-Computer Interaction</title>
+      <link>http://localhost:1313/tags/human-computer-interaction/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/human-computer-interaction/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Multisensory Perception</title>
+      <link>http://localhost:1313/tags/multisensory-perception/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/multisensory-perception/</guid>
       <description></description>
       
     </item>
@@ -40,11 +60,981 @@
     </item>
     
     <item>
-      <title>VR</title>
-      <link>http://localhost:1313/tags/vr/</link>
+      <title>Virtual Reality</title>
+      <link>http://localhost:1313/tags/virtual-reality/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/vr/</guid>
+      <guid>http://localhost:1313/tags/virtual-reality/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Accessibility</title>
+      <link>http://localhost:1313/tags/accessibility/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/accessibility/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Asymmetric Collaboration</title>
+      <link>http://localhost:1313/tags/asymmetric-collaboration/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/asymmetric-collaboration/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Asymmetric Remote Collaboration</title>
+      <link>http://localhost:1313/tags/asymmetric-remote-collaboration/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/asymmetric-remote-collaboration/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Augmented Reality</title>
+      <link>http://localhost:1313/tags/augmented-reality/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/augmented-reality/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Bordeaux</title>
+      <link>http://localhost:1313/tags/bordeaux/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/bordeaux/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Brest</title>
+      <link>http://localhost:1313/tags/brest/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/brest/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Collaboration</title>
+      <link>http://localhost:1313/tags/collaboration/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/collaboration/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Extended Reality</title>
+      <link>http://localhost:1313/tags/extended-reality/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/extended-reality/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Haptics Design</title>
+      <link>http://localhost:1313/tags/haptics-design/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/haptics-design/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Immersive Activities</title>
+      <link>http://localhost:1313/tags/immersive-activities/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/immersive-activities/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Immersive Teleclinics</title>
+      <link>http://localhost:1313/tags/immersive-teleclinics/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/immersive-teleclinics/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Industry 4.0</title>
+      <link>http://localhost:1313/tags/industry-4.0/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/industry-4.0/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Lille</title>
+      <link>http://localhost:1313/tags/lille/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/lille/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Mental Health Prevention</title>
+      <link>http://localhost:1313/tags/mental-health-prevention/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/mental-health-prevention/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Music Therapy</title>
+      <link>http://localhost:1313/tags/music-therapy/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/music-therapy/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Musical Instruments</title>
+      <link>http://localhost:1313/tags/musical-instruments/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/musical-instruments/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Nantes</title>
+      <link>http://localhost:1313/tags/nantes/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/nantes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Passive BCI</title>
+      <link>http://localhost:1313/tags/passive-bci/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/passive-bci/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Patient-Therapist Interaction</title>
+      <link>http://localhost:1313/tags/patient-therapist-interaction/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/patient-therapist-interaction/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Personalization</title>
+      <link>http://localhost:1313/tags/personalization/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/personalization/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Physical Therapy</title>
+      <link>http://localhost:1313/tags/physical-therapy/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/physical-therapy/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Problem-Solving</title>
+      <link>http://localhost:1313/tags/problem-solving/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/problem-solving/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Remote Collaboration</title>
+      <link>http://localhost:1313/tags/remote-collaboration/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/remote-collaboration/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Workspace Awareness</title>
+      <link>http://localhost:1313/tags/workspace-awareness/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/workspace-awareness/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Bystander Privacy</title>
+      <link>http://localhost:1313/tags/bystander-privacy/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/bystander-privacy/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Everyday Spaces</title>
+      <link>http://localhost:1313/tags/everyday-spaces/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/everyday-spaces/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Privacy Negotiation</title>
+      <link>http://localhost:1313/tags/privacy-negotiation/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/privacy-negotiation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>3D Authoring</title>
+      <link>http://localhost:1313/tags/3d-authoring/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/3d-authoring/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Application Domain Models</title>
+      <link>http://localhost:1313/tags/application-domain-models/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/application-domain-models/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Artistic Context</title>
+      <link>http://localhost:1313/tags/artistic-context/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/artistic-context/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Assistive Technology</title>
+      <link>http://localhost:1313/tags/assistive-technology/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/assistive-technology/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Asynchronous Interaction</title>
+      <link>http://localhost:1313/tags/asynchronous-interaction/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/asynchronous-interaction/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Caregiver</title>
+      <link>http://localhost:1313/tags/caregiver/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/caregiver/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Collaboration Tools</title>
+      <link>http://localhost:1313/tags/collaboration-tools/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/collaboration-tools/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Collaborative Learning</title>
+      <link>http://localhost:1313/tags/collaborative-learning/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/collaborative-learning/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Collaborative Visualization</title>
+      <link>http://localhost:1313/tags/collaborative-visualization/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/collaborative-visualization/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Colocated Collaboration</title>
+      <link>http://localhost:1313/tags/colocated-collaboration/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/colocated-collaboration/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Compiègne</title>
+      <link>http://localhost:1313/tags/compi%C3%A8gne/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/compi%C3%A8gne/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Cooperative Gestures</title>
+      <link>http://localhost:1313/tags/cooperative-gestures/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/cooperative-gestures/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Creative Collaboration</title>
+      <link>http://localhost:1313/tags/creative-collaboration/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/creative-collaboration/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Design-Based Research</title>
+      <link>http://localhost:1313/tags/design-based-research/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/design-based-research/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Digital Twin</title>
+      <link>http://localhost:1313/tags/digital-twin/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/digital-twin/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Emotional Presence</title>
+      <link>http://localhost:1313/tags/emotional-presence/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/emotional-presence/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Exhibition Design</title>
+      <link>http://localhost:1313/tags/exhibition-design/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/exhibition-design/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Grenoble</title>
+      <link>http://localhost:1313/tags/grenoble/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/grenoble/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Human Activity Recognition</title>
+      <link>http://localhost:1313/tags/human-activity-recognition/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/human-activity-recognition/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Image-Based Lighting</title>
+      <link>http://localhost:1313/tags/image-based-lighting/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/image-based-lighting/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Industry of the Future</title>
+      <link>http://localhost:1313/tags/industry-of-the-future/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/industry-of-the-future/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Intellectual Disability</title>
+      <link>http://localhost:1313/tags/intellectual-disability/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/intellectual-disability/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Inter-Brain Synchrony</title>
+      <link>http://localhost:1313/tags/inter-brain-synchrony/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/inter-brain-synchrony/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Interaction Classification</title>
+      <link>http://localhost:1313/tags/interaction-classification/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/interaction-classification/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Joint Action</title>
+      <link>http://localhost:1313/tags/joint-action/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/joint-action/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Kinesthetic Modality</title>
+      <link>http://localhost:1313/tags/kinesthetic-modality/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/kinesthetic-modality/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Lighting Design</title>
+      <link>http://localhost:1313/tags/lighting-design/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/lighting-design/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Metz</title>
+      <link>http://localhost:1313/tags/metz/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/metz/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Mixed Reality</title>
+      <link>http://localhost:1313/tags/mixed-reality/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/mixed-reality/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Mobility</title>
+      <link>http://localhost:1313/tags/mobility/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/mobility/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Multimodal Feedback</title>
+      <link>http://localhost:1313/tags/multimodal-feedback/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/multimodal-feedback/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Multimodal Interaction</title>
+      <link>http://localhost:1313/tags/multimodal-interaction/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/multimodal-interaction/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Multimodal Interfaces</title>
+      <link>http://localhost:1313/tags/multimodal-interfaces/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/multimodal-interfaces/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Nantes &amp; Grenoble</title>
+      <link>http://localhost:1313/tags/nantes--grenoble/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/nantes--grenoble/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Navigation</title>
+      <link>http://localhost:1313/tags/navigation/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/navigation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Object Tracking</title>
+      <link>http://localhost:1313/tags/object-tracking/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/object-tracking/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Point of View</title>
+      <link>http://localhost:1313/tags/point-of-view/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/point-of-view/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Rennes</title>
+      <link>http://localhost:1313/tags/rennes/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/rennes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Sense of Agency</title>
+      <link>http://localhost:1313/tags/sense-of-agency/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/sense-of-agency/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Sense of Joint Agency</title>
+      <link>http://localhost:1313/tags/sense-of-joint-agency/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/sense-of-joint-agency/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Spatial Sound Composition</title>
+      <link>http://localhost:1313/tags/spatial-sound-composition/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/spatial-sound-composition/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tangible User Interface</title>
+      <link>http://localhost:1313/tags/tangible-user-interface/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/tangible-user-interface/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Transversal Skills</title>
+      <link>http://localhost:1313/tags/transversal-skills/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/transversal-skills/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>User-Centered Design</title>
+      <link>http://localhost:1313/tags/user-centered-design/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/user-centered-design/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Valenciennes</title>
+      <link>http://localhost:1313/tags/valenciennes/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/valenciennes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Wayfinding</title>
+      <link>http://localhost:1313/tags/wayfinding/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/wayfinding/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Collaborative Work</title>
+      <link>http://localhost:1313/tags/collaborative-work/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/collaborative-work/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Collective Intelligence</title>
+      <link>http://localhost:1313/tags/collective-intelligence/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/collective-intelligence/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Evry</title>
+      <link>http://localhost:1313/tags/evry/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/evry/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Haptic Communication</title>
+      <link>http://localhost:1313/tags/haptic-communication/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/haptic-communication/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Human–computer Interaction</title>
+      <link>http://localhost:1313/tags/humancomputer-interaction/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/humancomputer-interaction/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Interpersonal Touch</title>
+      <link>http://localhost:1313/tags/interpersonal-touch/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/interpersonal-touch/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Professional Training</title>
+      <link>http://localhost:1313/tags/professional-training/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/professional-training/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Team Interaction</title>
+      <link>http://localhost:1313/tags/team-interaction/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/team-interaction/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Asymmetric Interactions</title>
+      <link>http://localhost:1313/tags/asymmetric-interactions/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/asymmetric-interactions/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Collaborative Behaviour</title>
+      <link>http://localhost:1313/tags/collaborative-behaviour/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/collaborative-behaviour/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Digital Fashion Design</title>
+      <link>http://localhost:1313/tags/digital-fashion-design/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/digital-fashion-design/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Generative Artificial Intelligence</title>
+      <link>http://localhost:1313/tags/generative-artificial-intelligence/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/generative-artificial-intelligence/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Heterogeneous Environments</title>
+      <link>http://localhost:1313/tags/heterogeneous-environments/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/heterogeneous-environments/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Human-Centered Computing</title>
+      <link>http://localhost:1313/tags/human-centered-computing/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/human-centered-computing/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Immersive Techonologies</title>
+      <link>http://localhost:1313/tags/immersive-techonologies/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/immersive-techonologies/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Intelligent User Interfaces</title>
+      <link>http://localhost:1313/tags/intelligent-user-interfaces/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/intelligent-user-interfaces/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Learning</title>
+      <link>http://localhost:1313/tags/learning/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/learning/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Sketching</title>
+      <link>http://localhost:1313/tags/sketching/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/sketching/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Toulouse</title>
+      <link>http://localhost:1313/tags/toulouse/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/toulouse/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Vibrotactile Feedback</title>
+      <link>http://localhost:1313/tags/vibrotactile-feedback/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/vibrotactile-feedback/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CAVE</title>
+      <link>http://localhost:1313/tags/cave/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/cave/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Interaction</title>
+      <link>http://localhost:1313/tags/interaction/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/interaction/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Isolated Environments</title>
+      <link>http://localhost:1313/tags/isolated-environments/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/isolated-environments/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Teleassistance</title>
+      <link>http://localhost:1313/tags/teleassistance/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/teleassistance/</guid>
       <description></description>
       
     </item>
