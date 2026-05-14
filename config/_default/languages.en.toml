@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "PEPR eNSEMBLE"
+title = "PEPR eNSEMBLE: PC1 CATS"
 
 [params]
   displayName = "EN"
