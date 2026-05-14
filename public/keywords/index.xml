@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Keywords on PEPR eNSEMBLE</title>
+    <link>http://localhost:1313/keywords/</link>
+    <description>Recent content in Keywords on PEPR eNSEMBLE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 PC1-CATS</copyright>
+    <lastBuildDate>Wed, 01 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/keywords/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Augmented Reality</title>
+      <link>http://localhost:1313/keywords/augmented-reality/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/keywords/augmented-reality/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Brest</title>
+      <link>http://localhost:1313/keywords/brest/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/keywords/brest/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Industry 4.0</title>
+      <link>http://localhost:1313/keywords/industry-4.0/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/keywords/industry-4.0/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Problem-Solving</title>
+      <link>http://localhost:1313/keywords/problem-solving/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/keywords/problem-solving/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Remote Collaboration</title>
+      <link>http://localhost:1313/keywords/remote-collaboration/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/keywords/remote-collaboration/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Virtual Reality</title>
+      <link>http://localhost:1313/keywords/virtual-reality/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/keywords/virtual-reality/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
