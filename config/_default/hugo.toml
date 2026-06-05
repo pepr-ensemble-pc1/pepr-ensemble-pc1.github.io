@@ -28,10 +28,12 @@ enableEmoji = true
   anchor = 'Center'
 
 [taxonomies]
-  tag = "tags"
-  category = "categories"
+  tag = "tags" # into keywords
+  category = "research" # into research
   author = "authors"
   series = "series"
+  people = "people"
+  publications = "publications"
 
 [sitemap]
   changefreq = 'daily'
@@ -50,7 +52,7 @@ enableEmoji = true
         weight = 100
 
     [[related.indices]]
-        name = "categories"
+        name = "research"
         weight = 100
 
     [[related.indices]]
