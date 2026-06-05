@@ -1,0 +1,12 @@
+name: Test API Connection
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-api:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test HAL API connection
+        run: |
+        curl -v -A "GitHub Actions Test" "https://api.archives-ouvertes.fr/search?q=*:*&fq=collCode_s:PEPR-ENSEMBLE&fq=anrProjectAcronym_s:\"CATS\"&wt=json&rows=1" --max-time 10
