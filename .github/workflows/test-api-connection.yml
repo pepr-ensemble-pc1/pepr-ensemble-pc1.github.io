@@ -1,12 +1,19 @@
-name: Test API Connection
+name: Test HAL API Accessibility
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:  # Déclenche manuellement depuis l'interface GitHub
 
 jobs:
   test-api:
     runs-on: ubuntu-latest
     steps:
-      - name: Test HAL API connection
+      - name: Test HAL API with curl
         run: |
-          curl -v -A "GitHub Actions Test" 'https://api.archives-ouvertes.fr/search?q=*:*&fq=collCode_s:PEPR-ENSEMBLE&fq=anrProjectAcronym_s:\"CATS\"&wt=json&rows=1' --max-time 10
+          echo "Testing HAL API accessibility..."
+          response=$(curl -s -o /dev/null -w "%{http_code}" "https://api.archives-ouvertes.fr/search?q=*:*&rows=1")
+          if [ "$response" -eq 200 ]; then
+            echo "✅ HAL API is accessible (HTTP 200)"
+          else
+            echo "❌ HAL API is NOT accessible (HTTP $response)"
+            exit 1
+          fi
