@@ -2,10 +2,13 @@
 import requests
 import json
 import os
+# Chemin absolu vers la racine du dépôt
 
 API_URL = "https://api.archives-ouvertes.fr/search"
-OUTPUT_FILE = "data/hal_pepr_cats_articles.json"
 
+REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+DATA_DIR = os.path.join(REPO_ROOT, "data")
+OUTPUT_FILE = os.path.join(DATA_DIR, "hal_pepr_cats_articles.json")
 params = {
     "q": "*:*",                          # Tous les documents
     "fq": [
@@ -17,11 +20,12 @@ params = {
     "rows": 1000
 }
 
+# Crée le dossier data s'il n'existe pas
+os.makedirs(DATA_DIR, exist_ok=True)
 response = requests.get(API_URL, params=params).json()
 docs = response["response"]["docs"]
 
-# Sauvegarde
-os.makedirs("data", exist_ok=True)
+
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     json.dump(response, f, indent=2, ensure_ascii=False)
 
