@@ -30,16 +30,16 @@ jobs:
             python scripts/fetch_hal.py && break || sleep 10
           done
 
-      - name: Commit and push changes (only if data changed)
+      - name: Commit and push changes
         run: |
-    git config --global user.name "GitHub Actions"
-    git config --global user.email "actions@github.com"
-    git add data/hal_pepr_cats_articles.json
-    if ! git diff --quiet --staged; then
-      git commit -m "🤖 Update HAL articles"
-      # Utilise le PAT pour le push
-      git remote set-url origin https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}
-      git push
-    else
-      echo "No changes to commit."
-    fi
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add data/hal_pepr_cats_articles.json
+          if ! git diff --quiet --staged; then
+            git commit -m "🤖 Update HAL articles"
+            # Utilise le PAT pour le push
+            git remote set-url origin https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}
+            git push
+          else
+            echo "No changes to commit."
+          fi
