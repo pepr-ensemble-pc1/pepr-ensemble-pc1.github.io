@@ -95,6 +95,18 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showZenMode = false
   # externalLinkForceNewTab = false # disable to allow external links in the same tab (defaults to true)
 
+# Globale Metadata for SEO
+[params]
+  # Titre par défaut (apparaît dans les onglets du navigateur et les résultats Google)
+  title = "PC1 - PEPR ENSEMBLE | CATS |"
+
+ 
+  # Mots-clés globaux (séparés par des virgules)
+  keywords = ["PC1", "PEPR ENSEMBLE", "CATS", "HCI"]
+
+  # Autorise l'indexation par les moteurs de recherche
+  robots = "index, follow"
+  
 [list]
   showHero = false
   # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
