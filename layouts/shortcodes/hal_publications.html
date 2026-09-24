@@ -1,5 +1,4 @@
 {{ $halData := readFile "data/hal_pepr_cats_articles.json" | transform.Unmarshal }}
-
 {{ $allPublications := slice }}
 
 {{ range $halData.response.docs }}
@@ -10,13 +9,7 @@
   {{/* Extraire les auteurs */}}
   {{ $authors := "" }}
   {{ if isset . "authFullName_s" }}
-    {{ $authorsList := index . "authFullName_s" }}
-    {{/* Vérifier si authFullName_s est une liste en testant son premier élément */}}
-    {{ if and (ne (len $authorsList) 0) (eq (typeOf (index $authorsList 0)) "string") }}
-      {{ $authors = delimit $authorsList ", " }}
-    {{ else if eq (typeOf $authorsList) "string" }}
-      {{ $authors = $authorsList }}
-    {{ end }}
+    {{ $authors = index . "authFullName_s" }}
   {{ else if isset . "label_s" }}
     {{ $labelParts := split .label_s "." }}
     {{ if ge (len $labelParts) 1 }}
