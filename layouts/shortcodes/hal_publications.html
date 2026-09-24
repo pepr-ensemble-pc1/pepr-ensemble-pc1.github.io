@@ -3,6 +3,7 @@
 {{/* Regrouper les publications par année */}}
 {{ $publicationsByYear := dict }}
 {{ range $halData.response.docs }}
+  {{/* Extraire l'année depuis publicationDateY_i ou publicationDate_s */}}
   {{ $year := (index . "publicationDateY_i" | default (index . "publicationDate_s" | default "0000")) | int }}
   {{ $doi := index . "doiId_s" | default "" }}
   {{ $title := index . "title_s" | default (index . "label_s" | default "Sans titre") }}
@@ -11,22 +12,26 @@
   {{/* Si le DOI est vide, on passe */}}
   {{ if ne $doi "" }}
     {{/* Initialiser la liste pour l'année si elle n'existe pas */}}
-    {{ if not (isset $publicationsByYear $year) }}
-      {{ $publicationsByYear = merge $publicationsByYear (dict $year slice) }}
+    {{ if not (isset $publicationsByYear (string $year)) }}
+      {{ $publicationsByYear = merge $publicationsByYear (dict (string $year) slice) }}
     {{ end }}
 
     {{/* Ajouter la publication à la liste de l'année */}}
-    {{ $publicationsByYear = merge $publicationsByYear (dict $year (append ($publicationsByYear | index $year) (dict "doi" $doi "title" $title "date" $date))) }}
+    {{ $publicationsByYear = merge $publicationsByYear (dict (string $year) (append ($publicationsByYear | index (string $year)) (dict "doi" $doi "title" $title "date" $date))) }}
   {{ end }}
 {{ end }}
 
-{{/* Trier les années par ordre décroissant */}}
-{{ $sortedYears := sort (keys $publicationsByYear) "desc" }}
+{{/* Extraire et trier les années */}}
+{{ $years := slice }}
+{{ range $key, $_ := $publicationsByYear }}
+  {{ $years = append $years (int $key) }}
+{{ end }}
+{{ $sortedYears := sort $years "desc" }}
 
 {{/* Afficher les publications par année */}}
 {{ range $sortedYears }}
   {{ $year := . }}
-  {{ $publications := index $publicationsByYear $year }}
+  {{ $publications := index $publicationsByYear (string $year) }}
 
   {{/* Trier les publications par date (si disponible) */}}
   {{ $sortedPublications := sort $publications "date" "desc" }}
@@ -40,4 +45,3 @@
     {{ end }}
   </ol>
 {{ end }}
-
