@@ -2,14 +2,23 @@
 {{ $allPublications := slice }}
 
 {{ range $halData.response.docs }}
-  {{ $year := (index . "publicationDateY_i" | default (index . "publicationDate_s" | default "0000")) | int }}
+  {{/* Extraire l'année (avec valeur par défaut si vide) */}}
+  {{ $yearRaw := index . "publicationDateY_i" | default (index . "publicationDate_s" | default "") }}
+  {{ $year := cond (ne $yearRaw "") ($yearRaw | int) "Inconnu" }}
+
+  {{/* Extraire le DOI (avec valeur par défaut) */}}
   {{ $doi := index . "doiId_s" | default "" }}
+
+  {{/* Extraire le titre */}}
   {{ $title := index . "title_s" | default (index . "label_s" | default "Sans titre") }}
 
   {{/* Extraire les auteurs */}}
   {{ $authors := "" }}
   {{ if isset . "authFullName_s" }}
     {{ $authors = index . "authFullName_s" }}
+    {{ if reflect.IsSlice $authors }}
+      {{ $authors = delimit $authors ", " }}
+    {{ end }}
   {{ else if isset . "label_s" }}
     {{ $labelParts := split .label_s "." }}
     {{ if ge (len $labelParts) 1 }}
@@ -17,31 +26,44 @@
     {{ end }}
   {{ end }}
 
-  {{ if ne $doi "" }}
-    {{ $allPublications = $allPublications | append (dict "year" $year "doi" $doi "title" $title "authors" $authors "date" (index . "publicationDate_s" | default "")) }}
-  {{ end }}
+  {{/* Ajouter la publication à la liste (même sans DOI) */}}
+  {{ $allPublications = $allPublications | append (dict
+    "year" $year
+    "doi" $doi
+    "title" $title
+    "authors" $authors
+    "date" (index . "publicationDate_s" | default "")
+  ) }}
 {{ end }}
 
+{{/* Trier les publications par année (descendant) puis par date (descendant) */}}
 {{ $sortedPublications := sort $allPublications "year" "desc" }}
 {{ $sortedPublications = sort $sortedPublications "date" "desc" }}
 
-{{ $currentYear := 0 }}
+{{/* Regrouper les publications par année */}}
+{{ $currentYear := "" }}
+{{ $isFirstYear := true }}
 
 {{ range $pub := $sortedPublications }}
   {{ if ne $pub.year $currentYear }}
-    {{ if ne $currentYear 0 }}
+    {{ if not $isFirstYear }}
       </ol>
     {{ end }}
     <h3>{{ $pub.year }}</h3>
     <ol>
     {{ $currentYear = $pub.year }}
+    {{ $isFirstYear = false }}
   {{ end }}
   <li>
     <strong>{{ $pub.title }}</strong> — {{ $pub.authors }}<br>
-    <a href="https://doi.org/{{ $pub.doi }}" target="_blank" rel="noopener">{{ $pub.doi }}</a>
+    {{ if ne $pub.doi "" }}
+      <a href="https://doi.org/{{ $pub.doi }}" target="_blank" rel="noopener">{{ $pub.doi }}</a>
+    {{ else }}
+      <span class="text-neutral-500">(Pas de DOI)</span>
+    {{ end }}
   </li>
 {{ end }}
 
-{{ if ne $currentYear 0 }}
+{{ if not $isFirstYear }}
   </ol>
 {{ end }}
