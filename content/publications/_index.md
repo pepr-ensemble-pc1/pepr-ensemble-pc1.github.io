@@ -38,7 +38,4 @@ title: "Publications"
 1. **Y. Mathilde** and S. Fleck. 2023. Embodying emotional presence through a tangible interface in a hybrid collaborative learning situation: state of the art. In Adjunct Proceedings of the 34th Conference on l'Interaction Humain-Machine (IHM '23 Adjunct). Association for Computing Machinery, New York, NY, USA, Article 2, 1–9. [https://doi.org/10.1145/3577590.3589602](https://doi.org/10.1145/3577590.3589602)
 
 
-<div id="hal-publications" class="container mx-auto py-8 px-4">
-  <h2 class="text-2xl font-bold mb-4">Publications HAL</h2>
-</div>
-<script src="/js/hal.js"></script>
+
