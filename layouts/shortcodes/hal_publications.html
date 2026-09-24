@@ -1,47 +1,35 @@
 {{ $halData := readFile "data/hal_pepr_cats_articles.json" | transform.Unmarshal }}
 
-{{/* Initialiser une liste pour toutes les publications avec année, titre, auteurs et DOI */}}
 {{ $allPublications := slice }}
 
-{{/* Parcourir les documents et extraire les infos nécessaires */}}
 {{ range $halData.response.docs }}
-  {{/* Extraire l'année */}
   {{ $year := (index . "publicationDateY_i" | default (index . "publicationDate_s" | default "0000")) | int }}
-
-  {{/* Extraire le DOI */}
   {{ $doi := index . "doiId_s" | default "" }}
-
-  {{/* Extraire le titre */}
   {{ $title := index . "title_s" | default (index . "label_s" | default "Sans titre") }}
 
-  {{/* Extraire les auteurs depuis authFullName_s ou label_s */}
   {{ $authors := "" }}
   {{ if isset . "authFullName_s" }}
     {{ $authorsList := index . "authFullName_s" }}
     {{ if isSlice $authorsList }}
-      {{ $authors = delimit (slice $authorsList) ", " }}
+      {{ $authors = delimit $authorsList ", " }}
     {{ else }}
       {{ $authors = $authorsList }}
     {{ end }}
   {{ else if isset . "label_s" }}
-    {{/* Extraire les auteurs depuis label_s (format : "Auteur1, Auteur2. Titre.") */}
     {{ $labelParts := split .label_s "." }}
     {{ if ge (len $labelParts) 1 }}
       {{ $authors = $labelParts | first | trim }}
     {{ end }}
   {{ end }}
 
-  {{/* Ajouter à la liste si le DOI existe */}
   {{ if ne $doi "" }}
     {{ $allPublications = $allPublications | append (dict "year" $year "doi" $doi "title" $title "authors" $authors "date" (index . "publicationDate_s" | default "")) }}
   {{ end }}
 {{ end }}
 
-{{/* Trier les publications par année (descendant) puis par date (descendant) */}}
 {{ $sortedPublications := sort $allPublications "year" "desc" }}
 {{ $sortedPublications = sort $sortedPublications "date" "desc" }}
 
-{{/* Regrouper les publications par année */}}
 {{ $currentYear := 0 }}
 
 {{ range $pub := $sortedPublications }}
