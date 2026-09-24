@@ -1,19 +1,43 @@
 {{ $halData := readFile "data/hal_pepr_cats_articles.json" | transform.Unmarshal }}
-<ul class="space-y-4">
-  {{ range $halData.response.docs }}
-    {{ $halId := .halId_s | default .docid | default .uri_s }}
-    {{ if $halId }}
-      <li class="p-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg shadow-sm">
-        <a
-          href="{{ if strings.HasPrefix $halId "http" }}{{ $halId }}{{ else }}https://hal.science/{{ $halId }}{{ end }}"
-          target="_blank"
-          rel="noopener"
-          class="text-lg font-semibold text-primary-600 dark:text-primary-400 hover:underline">
-          {{ .label_s | default "Sans titre" }}
-        </a>
+
+{{/* Regrouper les publications par année */}}
+{{ $publicationsByYear := dict }}
+{{ range $halData.response.docs }}
+  {{ $year := (index . "publicationDateY_i" | default (index . "publicationDate_s" | default "0000")) | int }}
+  {{ $doi := index . "doiId_s" | default "" }}
+  {{ $title := index . "title_s" | default (index . "label_s" | default "Sans titre") }}
+  {{ $date := index . "publicationDate_s" | default "" }}
+
+  {{/* Si le DOI est vide, on passe */}}
+  {{ if ne $doi "" }}
+    {{/* Initialiser la liste pour l'année si elle n'existe pas */}}
+    {{ if not (isset $publicationsByYear $year) }}
+      {{ $publicationsByYear = merge $publicationsByYear (dict $year slice) }}
+    {{ end }}
+
+    {{/* Ajouter la publication à la liste de l'année */}}
+    {{ $publicationsByYear = merge $publicationsByYear (dict $year (append ($publicationsByYear | index $year) (dict "doi" $doi "title" $title "date" $date))) }}
+  {{ end }}
+{{ end }}
+
+{{/* Trier les années par ordre décroissant */}}
+{{ $sortedYears := sort (keys $publicationsByYear) "desc" }}
+
+{{/* Afficher les publications par année */}}
+{{ range $sortedYears }}
+  {{ $year := . }}
+  {{ $publications := index $publicationsByYear $year }}
+
+  {{/* Trier les publications par date (si disponible) */}}
+  {{ $sortedPublications := sort $publications "date" "desc" }}
+
+  <h3>{{ $year }}</h3>
+  <ol>
+    {{ range $index, $pub := $sortedPublications }}
+      <li>
+        <a href="https://doi.org/{{ $pub.doi }}" target="_blank" rel="noopener">{{ $pub.doi }}</a>
       </li>
     {{ end }}
-  {{ end }}
-</ul>
-
+  </ol>
+{{ end }}
 
