@@ -1,47 +1,44 @@
 {{ $halData := readFile "data/hal_pepr_cats_articles.json" | transform.Unmarshal }}
 
-{{/* Regrouper les publications par année */}}
-{{ $publicationsByYear := dict }}
+{{/* Initialiser une liste pour toutes les publications avec année et DOI */}}
+{{ $allPublications := slice }}
+
+{{/* Parcourir les documents et extraire les infos nécessaires */}}
 {{ range $halData.response.docs }}
-  {{/* Extraire l'année depuis publicationDateY_i ou publicationDate_s */}}
   {{ $year := (index . "publicationDateY_i" | default (index . "publicationDate_s" | default "0000")) | int }}
   {{ $doi := index . "doiId_s" | default "" }}
-  {{ $title := index . "title_s" | default (index . "label_s" | default "Sans titre") }}
   {{ $date := index . "publicationDate_s" | default "" }}
 
-  {{/* Si le DOI est vide, on passe */}}
+  {{/* Ajouter à la liste si le DOI existe */}}
   {{ if ne $doi "" }}
-    {{/* Initialiser la liste pour l'année si elle n'existe pas */}}
-    {{ if not (isset $publicationsByYear (string $year)) }}
-      {{ $publicationsByYear = merge $publicationsByYear (dict (string $year) slice) }}
-    {{ end }}
-
-    {{/* Ajouter la publication à la liste de l'année */}}
-    {{ $publicationsByYear = merge $publicationsByYear (dict (string $year) (append ($publicationsByYear | index (string $year)) (dict "doi" $doi "title" $title "date" $date))) }}
+    {{ $allPublications = $allPublications | append (dict "year" $year "doi" $doi "date" $date) }}
   {{ end }}
 {{ end }}
 
-{{/* Extraire et trier les années */}}
-{{ $years := slice }}
-{{ range $key, $_ := $publicationsByYear }}
-  {{ $years = append $years (int $key) }}
-{{ end }}
-{{ $sortedYears := sort $years "desc" }}
+{{/* Trier les publications par année (descendant) puis par date (descendant) */}}
+{{ $sortedPublications := sort $allPublications "year" "desc" }}
+{{ $sortedPublications = sort $sortedPublications "date" "desc" }}
 
-{{/* Afficher les publications par année */}}
-{{ range $sortedYears }}
-  {{ $year := . }}
-  {{ $publications := index $publicationsByYear (string $year) }}
+{{/* Regrouper les publications par année */}}
+{{ $currentYear := 0 }}
+{{ $yearCounter := 0 }}
 
-  {{/* Trier les publications par date (si disponible) */}}
-  {{ $sortedPublications := sort $publications "date" "desc" }}
-
-  <h3>{{ $year }}</h3>
-  <ol>
-    {{ range $index, $pub := $sortedPublications }}
-      <li>
-        <a href="https://doi.org/{{ $pub.doi }}" target="_blank" rel="noopener">{{ $pub.doi }}</a>
-      </li>
+{{ range $pub := $sortedPublications }}
+  {{ if ne $pub.year $currentYear }}
+    {{ if ne $currentYear 0 }}
+      </ol>
     {{ end }}
+    <h3>{{ $pub.year }}</h3>
+    <ol>
+    {{ $currentYear = $pub.year }}
+    {{ $yearCounter = 0 }}
+  {{ end }}
+  {{ $yearCounter = add $yearCounter 1 }}
+  <li>
+    <a href="https://doi.org/{{ $pub.doi }}" target="_blank" rel="noopener">{{ $pub.doi }}</a>
+  </li>
+{{ end }}
+
+{{ if ne $currentYear 0 }}
   </ol>
 {{ end }}
