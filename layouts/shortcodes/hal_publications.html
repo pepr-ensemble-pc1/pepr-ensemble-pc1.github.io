@@ -1,0 +1,19 @@
+{{ $halData := readFile "data/hal_pepr_cats_articles.json" | transform.Unmarshal }}
+<ul class="space-y-4">
+  {{ range $halData.response.docs }}
+    {{ $halId := .halId_s | default .docid | default .uri_s }}
+    {{ if $halId }}
+      <li class="p-4 bg-neutral-50 dark:bg-neutral-800 rounded-lg shadow-sm">
+        <a
+          href="{{ if strings.HasPrefix $halId "http" }}{{ $halId }}{{ else }}https://hal.science/{{ $halId }}{{ end }}"
+          target="_blank"
+          rel="noopener"
+          class="text-lg font-semibold text-primary-600 dark:text-primary-400 hover:underline">
+          {{ .label_s | default "Sans titre" }}
+        </a>
+      </li>
+    {{ end }}
+  {{ end }}
+</ul>
+
+
