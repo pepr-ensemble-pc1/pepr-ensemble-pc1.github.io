@@ -37,5 +37,5 @@ title: "Publications"
 1. C. Simon, **M. Boukli Hacene**, S. Otmane, A. Chellali, Study of communication modalities to support teaching tool manipulation skills in a shared immersive environment, Computers & Graphics, Volume 117, 2023, Pages 31-41, ISSN 0097-8493, [https://doi.org/10.1016/j.cag.2023.09.011](https://doi.org/10.1016/j.cag.2023.09.011)
 1. **Y. Mathilde** and S. Fleck. 2023. Embodying emotional presence through a tangible interface in a hybrid collaborative learning situation: state of the art. In Adjunct Proceedings of the 34th Conference on l'Interaction Humain-Machine (IHM '23 Adjunct). Association for Computing Machinery, New York, NY, USA, Article 2, 1–9. [https://doi.org/10.1145/3577590.3589602](https://doi.org/10.1145/3577590.3589602)
 
-
+{{< hal_publications >}}
 
