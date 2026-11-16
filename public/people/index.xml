@@ -7,7 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 PC1-CATS</copyright>
-    <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/people/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/people/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Jarin THUNDATHIL</title>
+      <link>http://localhost:1313/people/thundathil/</link>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/people/thundathil/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Mohammadreza MAHMOUDI</title>
+      <link>http://localhost:1313/people/mahmoudi/</link>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/people/mahmoudi/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Flavien LEBRUN</title>
+      <link>http://localhost:1313/people/lebrun/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/people/lebrun/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Wen-Jie TSENG</title>
@@ -305,6 +335,46 @@
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/people/brand/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Christian SANDOR</title>
+      <link>http://localhost:1313/people/sandor/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/people/sandor/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Jean-Marie BURKHARDT</title>
+      <link>http://localhost:1313/people/burkhardt/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/people/burkhardt/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Marcos SERRANO</title>
+      <link>http://localhost:1313/people/serrano/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/people/serrano/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Maud MARCHAL</title>
+      <link>http://localhost:1313/people/marchal/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/people/marchal/</guid>
       <description></description>
       
     </item>

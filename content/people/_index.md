@@ -5,10 +5,14 @@ title: "People"
 
 ## Directors
 
-- Jean-Marie BURKHARDT
-- Maud MARCHAL
-- Christian SANDOR
-- Marcos SERRANO
+<!-- <img src="./burkhardt/jmb.jpg" alt="JM's picture" style="width:100px;"/>
+<img src="./marchal/mm.jpg" alt="MM's picture" style="width:100px;"/>
+<img src="./sandor/cs.jpg" alt="C's picture" style="width:100px;"/>
+<img src="./serrano/ms.jpg" alt="MS's picture" style="width:100px;"/> -->
+- [Jean-Marie BURKHARDT](/people/burkhardt/)
+- [Maud MARCHAL](/people/marchal/)
+- [Christian SANDOR](/people/sandor/)
+- [Marcos SERRANO](/people/serrano/)
 
 ## PostDocs
 
@@ -17,6 +21,12 @@ title: "People"
 - [Wen-Jie TSENG](/people/tseng/)
 
 ## PhD Students
+
+### 2026
+
+- [Jarin THUNDATHIL](/people/thundathil)
+- [Mohammadreza MAHMOUDI](/people/mahmoudi) 
+- [Franklin BASTIDAS](/people/bastidas)
 
 ### 2025
 

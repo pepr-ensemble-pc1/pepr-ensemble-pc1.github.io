@@ -3,9 +3,13 @@ title: "PC1-CATS: COLLABORATIVE SPACES"
 # description: "This page was built using the Blowfish theme for Hugo."
 ---
 
+
+
 ## About
 
 **PC1-CATS (Collaboration Across Heterogeneous Spaces)** aims to design collaboration spaces that enable continuous and seamless collaboration, bridging remote and face-to-face work, tightly coupled and loosely coupled interactions, as well as group collaborations involving spontaneous subgroups or side interactions.
+
+![collaboration across heterogeneous space](../assets/CATS.png)
 
 The objective is to address changes of scale along four key dimensions:
 1. Diversity of users

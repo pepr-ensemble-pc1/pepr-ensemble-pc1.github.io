@@ -3,9 +3,10 @@ title: "Publications"
 # description: "TODO: update the width of the webpage ... "
 ---
 
+{{< hal_publications >}}
 
 
-### 2025
+<!-- ### 2025
 
 1. **N. Salin**, V. Gouranton, F. Berthaut, and R. Gaugne. 2025. Toward Multimodal Asynchronous Collaboration in VR Artistic Creation with S.P.A.R.K. In Proceedings of the 2025 31st ACM Symposium on Virtual Reality Software and Technology (VRST '25). Association for Computing Machinery, New York, NY, USA, Article 68, 1–10. [https://doi.org/10.1145/3756884.3765998](https://doi.org/10.1145/3756884.3765998)
 1. **J. L. Meudec**, V. Casamayou, A. Corn, J. Dillmann and A. Ferron, "Treeam: an Immersive and Collaborative Serious Game About Trees and Forest," 2025 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), Saint Malo, France, 2025, pp. 1536-1537, [⟨hal-05158583⟩](https://anr.hal.science/hal-05158583/)
@@ -35,7 +36,6 @@ title: "Publications"
 
 1. **D. Maruscsák**, G. Szűcs, J. Vézien, and C. Sandor. 2023. MiniGI: Guerilla Mappings in Miniature. In SIGGRAPH Asia 2023 XR (SA '23). Association for Computing Machinery, New York, NY, USA, Article 18, 1. [https://doi.org/10.1145/3610549.3614612](https://doi.org/10.1145/3610549.3614612)
 1. C. Simon, **M. Boukli Hacene**, S. Otmane, A. Chellali, Study of communication modalities to support teaching tool manipulation skills in a shared immersive environment, Computers & Graphics, Volume 117, 2023, Pages 31-41, ISSN 0097-8493, [https://doi.org/10.1016/j.cag.2023.09.011](https://doi.org/10.1016/j.cag.2023.09.011)
-1. **Y. Mathilde** and S. Fleck. 2023. Embodying emotional presence through a tangible interface in a hybrid collaborative learning situation: state of the art. In Adjunct Proceedings of the 34th Conference on l'Interaction Humain-Machine (IHM '23 Adjunct). Association for Computing Machinery, New York, NY, USA, Article 2, 1–9. [https://doi.org/10.1145/3577590.3589602](https://doi.org/10.1145/3577590.3589602)
+1. **Y. Mathilde** and S. Fleck. 2023. Embodying emotional presence through a tangible interface in a hybrid collaborative learning situation: state of the art. In Adjunct Proceedings of the 34th Conference on l'Interaction Humain-Machine (IHM '23 Adjunct). Association for Computing Machinery, New York, NY, USA, Article 2, 1–9. [https://doi.org/10.1145/3577590.3589602](https://doi.org/10.1145/3577590.3589602) -->
 
-{{< hal_publications >}}
 

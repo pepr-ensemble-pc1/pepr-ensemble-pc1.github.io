@@ -10,6 +10,16 @@
     <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Collaborative Virtual Environment</title>
+      <link>http://localhost:1313/tags/collaborative-virtual-environment/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/collaborative-virtual-environment/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Fatigue</title>
       <link>http://localhost:1313/tags/fatigue/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
@@ -20,11 +30,41 @@
     </item>
     
     <item>
+      <title>Haptic Collaboration</title>
+      <link>http://localhost:1313/tags/haptic-collaboration/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/haptic-collaboration/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HCI</title>
+      <link>http://localhost:1313/tags/hci/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/hci/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Human-Computer Interaction</title>
       <link>http://localhost:1313/tags/human-computer-interaction/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/human-computer-interaction/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Mentorship Model</title>
+      <link>http://localhost:1313/tags/mentorship-model/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/mentorship-model/</guid>
       <description></description>
       
     </item>
@@ -65,6 +105,26 @@
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/virtual-reality/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Visuo-Haptic Illusion</title>
+      <link>http://localhost:1313/tags/visuo-haptic-illusion/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/visuo-haptic-illusion/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>VR</title>
+      <link>http://localhost:1313/tags/vr/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/vr/</guid>
       <description></description>
       
     </item>
@@ -1035,6 +1095,136 @@
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/teleassistance/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>3D Interaction</title>
+      <link>http://localhost:1313/tags/3d-interaction/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/3d-interaction/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>AI</title>
+      <link>http://localhost:1313/tags/ai/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/ai/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>AR</title>
+      <link>http://localhost:1313/tags/ar/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/ar/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>AR/MR Interaction</title>
+      <link>http://localhost:1313/tags/ar/mr-interaction/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/ar/mr-interaction/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Design Cognition</title>
+      <link>http://localhost:1313/tags/design-cognition/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/design-cognition/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Ergonomics</title>
+      <link>http://localhost:1313/tags/ergonomics/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/ergonomics/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Freeform Interfaces</title>
+      <link>http://localhost:1313/tags/freeform-interfaces/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/freeform-interfaces/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Haptics</title>
+      <link>http://localhost:1313/tags/haptics/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/haptics/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Human Factors</title>
+      <link>http://localhost:1313/tags/human-factors/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/human-factors/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Human Perception</title>
+      <link>http://localhost:1313/tags/human-perception/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/human-perception/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Physics-Based Simulation</title>
+      <link>http://localhost:1313/tags/physics-based-simulation/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/physics-based-simulation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Psychology</title>
+      <link>http://localhost:1313/tags/psychology/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/psychology/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Ubiquitous Interaction</title>
+      <link>http://localhost:1313/tags/ubiquitous-interaction/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/ubiquitous-interaction/</guid>
       <description></description>
       
     </item>
