@@ -5,18 +5,27 @@ title: "People"
 
 ## Directors
 
-<!-- <img src="./burkhardt/jmb.jpg" alt="JM's picture" style="width:100px;"/>
-<img src="./marchal/mm.jpg" alt="MM's picture" style="width:100px;"/>
-<img src="./sandor/cs.jpg" alt="C's picture" style="width:100px;"/>
-<img src="./serrano/ms.jpg" alt="MS's picture" style="width:100px;"/> -->
-- [Jean-Marie BURKHARDT](/people/burkhardt/)
-- [Maud MARCHAL](/people/marchal/)
-- [Christian SANDOR](/people/sandor/)
-- [Marcos SERRANO](/people/serrano/)
+<div style="display:flex; flex-wrap:wrap; gap:1.5rem;">
+  <figure style="width:150px; margin:0; text-align:center;">
+    <a href="/people/burkhardt/"><img src="/people/burkhardt/jmb.jpg" alt="Jean-Marie Burkhardt" style="width:100%; height:150px; object-fit:cover;"/></a>
+    <figcaption><a href="/people/burkhardt/">Jean-Marie BURKHARDT</a></figcaption>
+  </figure>
+  <figure style="width:150px; margin:0; text-align:center;">
+    <a href="/people/marchal/"><img src="/people/marchal/mm.jpg" alt="Maud Marchal" style="width:100%; height:150px; object-fit:cover;"/></a>
+    <figcaption><a href="/people/marchal/">Maud MARCHAL</a></figcaption>
+  </figure>
+  <figure style="width:150px; margin:0; text-align:center;">
+    <a href="/people/sandor/"><img src="/people/sandor/cs.jpg" alt="Christian Sandor" style="width:100%; height:150px; object-fit:cover;"/></a>
+    <figcaption><a href="/people/sandor/">Christian SANDOR</a></figcaption>
+  </figure>
+  <figure style="width:150px; margin:0; text-align:center;">
+    <a href="/people/serrano/"><img src="/people/serrano/ms.jpg" alt="Marcos Serrano" style="width:100%; height:150px; object-fit:cover;"/></a>
+    <figcaption><a href="/people/serrano/">Marcos SERRANO</a></figcaption>
+  </figure>
+</div>
 
 ## PostDocs
 
-### 2025
 - [Flavien LEBRUN](/people/lebrun/)
 - [Wen-Jie TSENG](/people/tseng/)
 
