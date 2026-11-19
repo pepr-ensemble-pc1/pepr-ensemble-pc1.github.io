@@ -54,10 +54,11 @@
   {{ end }}
   <li>
     <strong>{{ $pub.title }}</strong> — {{ $pub.authors }}<br>
-    {{ with $pub.doi }}
-      <a href="https://doi.org/{{ . }}" target="_blank" rel="noopener">{{ . }}</a>
-    {{ else }}
-      <span class="text-neutral-500">(Pas de DOI)</span>
+    {{ with $pub.halUrl }}
+      <a href="{{ . }}" target="_blank" rel="noopener">Fiche HAL</a>
+    {{ end }}
+    {{ if $pub.doi }}
+      · <a href="https://doi.org/{{ $pub.doi }}" target="_blank" rel="noopener">DOI</a>
     {{ end }}
   </li>
 {{ end }}
