@@ -22,6 +22,10 @@
   {{ else with .en_title_s }}{{ $title = index . 0 }}
   {{ else with .label_s }}{{ $title = . }}{{ end }}
 
+  {{/* Lien vers la fiche HAL */}}
+  {{ $halUrl := "" }}
+  {{ with .halId_s }}{{ $halUrl = printf "https://hal.science/%s" . }}
+  {{ else with .uri_s }}{{ $halUrl = . }}{{ end }}
   {{ $authors := "" }}
   {{ with .authFullName_s }}{{ $authors = delimit . ", " }}
   {{ else with .label_s }}{{ $authors = split . "." | first | trim }}{{ end }}
@@ -32,6 +36,7 @@
     "doi" $doi
     "title" $title
     "authors" $authors
+    "halUrl" $halUrl
   ) }}
 {{ end }}
 
