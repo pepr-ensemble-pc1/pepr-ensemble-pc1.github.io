@@ -30,6 +30,7 @@ enableEmoji = true
 [taxonomies]
   tag = "tags" # into keywords
   category = "research" # into research
+  city = "cities"
   author = "authors"
   series = "series"
   people = "people"
